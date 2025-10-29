@@ -1,0 +1,104 @@
+Oct-29 11:00:13.950 [main] DEBUG nextflow.cli.Launcher - $> nextflow -quiet -log /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/meta/nextflow.log run /Users/ahamed/Documents/hackathon2025/.nf-test-60390bb608438ca735f2c58400c23400.nf -c /Users/ahamed/Documents/hackathon2025/nextflow.config -c /Users/ahamed/Documents/hackathon2025/tests/nextflow.config -c /Users/ahamed/Documents/hackathon2025/modules/local/registerstudy/tests/../nextflow.config -params-file /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/meta/params.json -ansi-log false -profile test -with-trace /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/meta/trace.csv -w /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/work
+Oct-29 11:00:14.051 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.10.0
+Oct-29 11:00:14.123 [main] DEBUG nextflow.config.ConfigBuilder - Found config home: /Users/ahamed/.nextflow/config
+Oct-29 11:00:14.127 [main] DEBUG nextflow.config.ConfigBuilder - Found config base: /Users/ahamed/Documents/hackathon2025/nextflow.config
+Oct-29 11:00:14.133 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ahamed/Documents/hackathon2025/nextflow.config
+Oct-29 11:00:14.134 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ahamed/Documents/hackathon2025/tests/nextflow.config
+Oct-29 11:00:14.135 [main] DEBUG nextflow.config.ConfigBuilder - User config file: /Users/ahamed/Documents/hackathon2025/modules/local/registerstudy/tests/../nextflow.config
+Oct-29 11:00:14.137 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ahamed/.nextflow/config
+Oct-29 11:00:14.138 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ahamed/Documents/hackathon2025/nextflow.config
+Oct-29 11:00:14.139 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ahamed/Documents/hackathon2025/nextflow.config
+Oct-29 11:00:14.139 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ahamed/Documents/hackathon2025/tests/nextflow.config
+Oct-29 11:00:14.140 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/ahamed/Documents/hackathon2025/modules/local/registerstudy/nextflow.config
+Oct-29 11:00:14.180 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test`
+Oct-29 11:00:14.699 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test`
+Oct-29 11:00:15.535 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugin manager
+Oct-29 11:00:15.547 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-29 11:00:15.548 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-29 11:00:15.552 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Oct-29 11:00:15.567 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugin manager
+Oct-29 11:00:19.888 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test`
+Oct-29 11:00:20.023 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugin manager
+Oct-29 11:00:20.024 [main] DEBUG nextflow.plugin.PluginsFacade - Using Default plugin manager
+Oct-29 11:00:20.415 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test`
+Oct-29 11:00:20.441 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `test`
+Oct-29 11:00:20.465 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [bih, cfc_dev, uzl_omics, ifb_core, embl_hd, denbi_qbic, alice, mjolnir_globe, uppmax, giga, incliva, ilifu, ki_luria, uge, icr_alma, rosalind_uge, lugh, mccleary, unibe_ibu, vai, czbiohub_aws, jax, roslin, tes, scw, unc_longleaf, tigem, tubingen_apg, apollo, ipop_up, vsc_calcua, pdc_kth, ceci_nic5, ccga_cau, humantechnopole, stjude, daisybio, eddie, medair, biowulf, apptainer, bi, bigpurple, adcra, cedars, pawsey_setonix, vsc_kul_uhasselt, pawsey_nimbus, ucl_myriad, utd_ganymede, charliecloud, fred_hutch, seattlechildrens, icr_davros, ceres, munin, rosalind, hasta, cfc, emulate_amd64, uzh, shu_bmrc, ebi_codon_slurm, ebc, ccga_dx, crick, ku_sund_danhead, marvin, shifter, biohpc_gen, mana, mamba, york_viking, unc_lccc, wehi, awsbatch, wustl_htcf, arcc, ceci_dragon2, imperial, maestro, software_license, cannon, genotoul, nci_gadi, abims, eva_grace, janelia, nu_genomics, googlebatch, oist, sahmri, kaust, alliance_canada, arm64, mpcdf, leicester, vsc_ugent, create, sage, cambridge, jex, podman, ebi_codon, cheaha, xanadu, nyu_hpc, test, marjorie, computerome, ucd_sonic, gpu, seg_globe, mssm, sanger, dkfz, bluebear, pasteur, einstein, ethz_euler, m3c, test_full, imb, ucl_cscluster, tuos_stanage, azurebatch, seadragon, crukmi, csiro_petrichor, qmul_apocrita, wave, docker, engaging, gis, hypatia, psmn, eva, unity, cropdiversityhpc, nygc, fgcz, conda, crg, singularity, mpcdf_viper, pe2, dirac, self_hosted_runner, tufts, uw_hyak_pedslabs, binac2, debug, hki_genie, genouest, cbe, unsw_katana, utd_juno, phoenix, seawulf, uod_hpc, fub_curta, lovelace, uct_hpc, aws_tower, binac, fsu_draco]
+Oct-29 11:00:20.521 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/ahamed/.nextflow/plugins; core-plugins: nf-amazon@3.4.1,nf-azure@1.20.2,nf-cloudcache@0.5.0,nf-codecommit@0.5.0,nf-console@1.3.0,nf-google@1.23.3,nf-k8s@1.2.2,nf-tower@1.17.1,nf-wave@1.16.1
+Oct-29 11:00:20.528 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-29 11:00:20.529 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-29 11:00:20.531 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Oct-29 11:00:20.548 [main] DEBUG nextflow.util.RetryConfig - Missing nextflow session - using default retry config
+Oct-29 11:00:20.592 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-29 11:00:20.594 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins declared=[nf-schema@2.5.1]
+Oct-29 11:00:20.596 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Oct-29 11:00:20.597 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[nf-schema@2.5.1]
+Oct-29 11:00:21.937 [main] DEBUG n.plugin.HttpPluginRepository - Registry request: https://registry.nextflow.io/api/v1/plugins/dependencies?plugins=nf-schema%402.5.1&nextflowVersion=25.10.0
+- code: 200
+- body: {"plugins":[{"id":"nf-schema","downloadCount":12633,"downloadGhCount":426182,"releases":[{"version":"2.5.1","url":"https://registry.nextflow.io/api/v1/plugins/nf-schema/2.5.1/download/nf-schema-2.5.1.zip","date":"2025-09-02T14:48:39.714892Z","sha512sum":"82c9c17a9f77319386e670e7b52cf79b067320001f083ccdfec77dada9fd53499506200fd10b493cf8f6fc0420f42e2314481c353ca14b3a92f354bf07ad5c13","requires":">=25.04.0","dependsOn":[],"downloadCount":7288,"downloadGhCount":8942,"status":"PUBLISHED","spec":null}],"projectUrl":"https://github.com/nextflow-io/nf-schema","provider":"nextflow-io","description":null}]}
+Oct-29 11:00:21.999 [main] DEBUG nextflow.plugin.PluginUpdater - Installing plugin nf-schema version: 2.5.1
+Oct-29 11:00:22.035 [main] INFO  org.pf4j.AbstractPluginManager - Plugin 'nf-schema@2.5.1' resolved
+Oct-29 11:00:22.035 [main] INFO  org.pf4j.AbstractPluginManager - Start plugin 'nf-schema@2.5.1'
+Oct-29 11:00:22.047 [main] DEBUG nextflow.plugin.BasePlugin - Plugin started nf-schema@2.5.1
+Oct-29 11:00:22.060 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/ahamed/.nextflow/secrets/store.json
+Oct-29 11:00:22.064 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@13aed42b] - activable => nextflow.secret.LocalSecretsProvider@13aed42b
+Oct-29 11:00:22.089 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Oct-29 11:00:22.109 [main] INFO  nextflow.cli.CmdRun - Launching `/Users/ahamed/Documents/hackathon2025/.nf-test-60390bb608438ca735f2c58400c23400.nf` [peaceful_mahavira] DSL2 - revision: 1ca53f3789
+Oct-29 11:00:22.175 [main] DEBUG nextflow.Session - Session UUID: 6b60cd00-b2c5-45e2-8826-b9f70c1c1e5c
+Oct-29 11:00:22.176 [main] DEBUG nextflow.Session - Run name: peaceful_mahavira
+Oct-29 11:00:22.176 [main] DEBUG nextflow.Session - Executor pool size: 8
+Oct-29 11:00:22.188 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Oct-29 11:00:22.195 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Oct-29 11:00:24.834 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 25.10.0 build 10289
+  Created: 22-10-2025 16:26 UTC (18:26 CEST)
+  System: Mac OS X 26.0.1
+  Runtime: Groovy 4.0.28 on Java HotSpot(TM) 64-Bit Server VM 20.0.1+9-29
+  Encoding: UTF-8 (UTF-8)
+  Process: 26007@C02F903RML7L [10.110.84.98]
+  CPUs: 8 - Mem: 16 GB (87 MB) - Swap: 3 GB (1.1 GB)
+Oct-29 11:00:24.860 [main] DEBUG nextflow.Session - Work-dir: /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/work [Mac OS X]
+Oct-29 11:00:24.861 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/ahamed/Documents/hackathon2025/bin
+Oct-29 11:00:24.880 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-29 11:00:24.904 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Oct-29 11:00:24.910 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Oct-29 11:00:24.952 [main] DEBUG nextflow.Session - Observer factory (v2): ValidationObserverFactory
+Oct-29 11:00:25.024 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-29 11:00:25.036 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+Oct-29 11:00:25.110 [main] DEBUG nextflow.Session - Session start
+Oct-29 11:00:25.118 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/meta/trace.csv
+Oct-29 11:00:25.380 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-29 11:00:25.690 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:process_single` matches labels `process_single` for process with name REGISTERSTUDY
+Oct-29 11:00:25.694 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withName:REGISTERSTUDY` matches process REGISTERSTUDY
+Oct-29 11:00:25.724 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-29 11:00:25.726 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-29 11:00:25.739 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-29 11:00:25.748 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Oct-29 11:00:25.751 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Oct-29 11:00:25.781 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'REGISTERSTUDY': maxForks=0; fair=false; array=0
+Oct-29 11:00:25.904 [main] DEBUG nextflow.Session - Config process names validation disabled as requested
+Oct-29 11:00:25.908 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+Oct-29 11:00:25.909 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > REGISTERSTUDY
+Oct-29 11:00:25.911 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_d92f4bcb9c34ba56: /Users/ahamed/Documents/hackathon2025/modules/local/registerstudy/main.nf
+  Script_759dfa62d56613b4: /Users/ahamed/Documents/hackathon2025/.nf-test-60390bb608438ca735f2c58400c23400.nf
+Oct-29 11:00:25.911 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-29 11:00:25.911 [main] DEBUG nextflow.Session - Session await
+Oct-29 11:00:26.146 [Task submitter] WARN  n.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+Oct-29 11:00:26.169 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-29 11:00:26.172 [Task submitter] INFO  nextflow.Session - [0f/971f0b] Submitted process > REGISTERSTUDY (test)
+Oct-29 11:00:36.619 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: REGISTERSTUDY (test); status: COMPLETED; exit: 0; error: -; workDir: /Users/ahamed/Documents/hackathon2025/.nf-test/tests/60390bb608438ca735f2c58400c23400/work/0f/971f0bbc3d31eac55acc9071ecf034]
+Oct-29 11:00:36.622 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Oct-29 11:00:36.674 [TaskFinalizer-1] WARN  nextflow.processor.PublishDir - Process `REGISTERSTUDY` publishDir path contains a variable with a null value
+Oct-29 11:00:36.695 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-29 11:00:36.715 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Oct-29 11:00:36.716 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-29 11:00:36.722 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Oct-29 11:00:36.741 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=10s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=6 GB; ]
+Oct-29 11:00:36.770 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Oct-29 11:00:37.718 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Oct-29 11:00:37.828 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Oct-29 11:00:37.836 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-29 11:00:37.861 [main] INFO  org.pf4j.AbstractPluginManager - Stop plugin 'nf-schema@2.5.1'
+Oct-29 11:00:37.861 [main] DEBUG nextflow.plugin.BasePlugin - Plugin stopped nf-schema
+Oct-29 11:00:37.863 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Oct-29 11:00:37.863 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

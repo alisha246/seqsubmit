@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	76/5645ca	26594	REGISTERSTUDY (test)	COMPLETED	0	2025-10-29 11:00:52.586	127ms	0ms	-	-	-	-	-
