@@ -18,7 +18,6 @@ tools:
     identifier: null
 
 input:
-  ### TODO nf-core: Add a description of all of the variables used as input
 - - meta:
       type: map
       description: |
@@ -36,15 +35,18 @@ input:
         Name of the sequencing or submitting center.
         Example: "Wellcome Sanger Institute"
 
-  - library:
-      type: value
-      description: |
-        Library information with the study.
-        Example: "metagenome"
+- library:
+    type: value
+    description: |
+      Library information associated with the study.
+      Example: "metagenome"
+    enum:
+      - metagenome
+      - metatranscriptome
 
 output:
-  ### TODO nf-core: Add a description of all of the variables used as output
-  bam:
+
+  study_accession:
   - - meta:
         type: map
         description: |
@@ -53,7 +55,7 @@ output:
     - study:
         type: value
         description: |
-          Study accession or name to register in ENA.
+          Study accession to be used for assembly submission.
           Example: "PRJEB312520"
   versions:
   - "versions.yml":
