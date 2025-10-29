@@ -3,9 +3,7 @@ process REGISTERSTUDY {
     label 'process_single'
 
     conda "${moduleDir}/environment.yml"
-    container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'community.wave.seqera.io/library/pip_assembly-uploader:7e9461afbdd7a521':
-        'biocontainers/assembly-uploader' }"
+    container "community.wave.seqera.io/library/pip_assembly-uploader:7e9461afbdd7a521"
 
     input:
     tuple val(meta), val(study), val(center), val(library)
