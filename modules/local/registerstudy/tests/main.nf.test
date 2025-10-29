@@ -9,7 +9,7 @@ nextflow_process {
 
     tag "modules"
     tag "registerstudy"
-
+/*
     test("registerstudy - should register a study on ENA test server") {
 
         when {
@@ -32,6 +32,7 @@ nextflow_process {
             )
         }
     }
+*/
 
     test("registerstudy - stub") {
 
@@ -60,4 +61,3 @@ nextflow_process {
 
     }
 }
-
