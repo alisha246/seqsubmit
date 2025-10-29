@@ -55,7 +55,7 @@ output:
     - study:
         type: value
         description: |
-          Study accession to be used for assembly submission.
+          Study accession registered in ENA.
           Example: "PRJEB312520"
   versions:
   - "versions.yml":
